@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+.background-gradient {
+  background-image: linear-gradient(to right, blue, #830c83);
+}
+
+.border-radius-40 {
+  border-radius: 40px;
+}
+
+.container-image {
+  background-image: url('./images/write.jpg');
+  background-size: cover;
+}
+
+.ml-50 {
+  margin-left: 50px;
+}
+
+.line-height-120 {
+  line-height: 120px;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-color-semi-black {
+  color: #777;
+}

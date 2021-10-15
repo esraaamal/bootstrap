@@ -1,0 +1,108 @@
+body {
+  height: 1000px;
+}
+
+.navBar1 {
+  display: flex;
+  justify-content: center;
+  padding: 4% 4% 0 4%;
+}
+.fs-6 {
+  font-size: 0.4rem!important;}
+.bg-light {
+  box-shadow: 10px 10px 8px 10px #888888;
+}
+.rightSide1{
+  display: flex;
+  width: 29%;
+  justify-content: space-evenly;
+  margin-left: 31%;
+}
+.rightSide1 button{
+  background: #2937f0;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  width: 153px;
+  height: 34px;
+  margin-top: -1%;
+}
+.rightSide1 button i{
+  
+  margin-right: 4%;
+
+}
+.navBar1 div:nth-child(1){
+  font-weight:700;
+
+}
+
+
+.rightSide img {
+  width: 200px;
+  /* height: 200px; */
+}
+.rightDiv {
+  width: 32%;
+  margin: 9% auto;
+}
+.rightDiv h1 {
+  font-size: 3em;
+}
+.circle2 {
+  background-image: linear-gradient(to right, #512cea, #9d1ae1);
+
+  padding: 13%;
+  border-radius: 50%;
+  margin-top: 4%;
+  z-index: 0;
+  margin-left: 3%;
+  position: absolute;
+}
+.closeone {
+  margin-top: 75%;
+  font-weight: bold;
+  color: #9d1ae1;
+}
+
+.phoneImage {
+  position: absolute;
+
+  z-index: 1;
+}
+
+/* HazemCode */
+* {
+  box-sizing: border-box;
+}
+
+.background-gradient {
+  background-image: linear-gradient(to right, blue, #830c83);
+}
+
+.border-radius-40 {
+  border-radius: 40px;
+}
+
+.container-image {
+  background-image: url("./images/write.jpg");
+  background-size: cover;
+}
+
+.ml-50 {
+  margin-left: 50px;
+}
+
+.line-height-120 {
+  line-height: 120px;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-color-semi-black {
+  color: #777;
+}
+
+/* HazemCode */
