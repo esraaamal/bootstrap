@@ -1,7 +1,7 @@
 ## Group bootstrap webpage Done by Esraa, Hazem, Leen, and Omar :
-** our project
-[https://esraaamal.github.io/bootstrap/index2.html](https://esraaamal.github.io/bootstrap/index2.html)/
-** PDF project :/
+##### our project
+[https://esraaamal.github.io/bootstrap/index2.html](https://esraaamal.github.io/bootstrap/index2.html)
+##### PDF project :
 [https://drive.google.com/file/d/1s-j7MmnFffVeDhEF8OAzoc9UVAhfUNod/view?usp=sharing](https://drive.google.com/file/d/1s-j7MmnFffVeDhEF8OAzoc9UVAhfUNod/view?usp=sharing)
 ## individuals bootstrap link 
 [https://esraaamal.github.io/bootstrap/l](https://esraaamal.github.io/bootstrap/)
