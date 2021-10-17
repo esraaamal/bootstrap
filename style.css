@@ -10,7 +10,7 @@ body {
 .fs-6 {
   font-size: 0.4rem!important;}
 .bg-light {
-  box-shadow: 10px 10px 8px 10px #888888;
+  box-shadow: 1px 1px 8px 2px #888888;
 }
 .rightSide1{
   display: flex;
@@ -106,3 +106,36 @@ body {
 }
 
 /* HazemCode */
+.col-6 img{
+  width: 36%;
+  border-radius: 50%;
+}
+
+.background-gradient {
+  background-image: linear-gradient(to right, blue, #830c83);
+}
+
+.border-radius-40 {
+  border-radius: 40px;
+}
+
+.container-image {
+  background-image: url('./images/write.jpg');
+  background-size: cover;
+}
+
+.ml-50 {
+  margin-left: 50px;
+}
+
+.line-height-120 {
+  line-height: 120px;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-color-semi-black {
+  color: #777;
+}

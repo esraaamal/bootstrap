@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+body{
+    overflow-x: hidden;
+}
+
+        #header {
+            width: 100%;
+            padding-top: 1%;
+            display: flex;
+            
+
+        }
+
+        #header-img {
+            width: 31%;
+        }
+.navbar li{
+    margin-left: 10%;
+    font-size: 21px;
+}
+      .navbar ul {
+    position: absolute;
+    display: flex;
+    list-style: none;
+    width: 100%;
+    margin-left: -19%;
+    top: 3%;
+    
+        }
+        .navbar ul li a{
+            text-decoration: none;
+  color: black;
+        }
+       
+        .home{
+           text-align: center;
+            padding: 1%;line-height: 1.6;
+        }
+        .home input{
+            padding: 5px 5%;
+        }
+        .home button{
+            max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    border: 0;
+    background-color: #f1c40f;
+
+        }
+        .container{
+            text-align: center;
+        }
+        .fa{
+            color: darkorange;
+            margin-bottom: 100%;
+
+        }
+        .section2{
+            margin: 0 auto;
+            text-align: center;
+            width: 55%;
+            display: grid;
+            grid-template-columns: 1fr 7fr;
+            padding: 2%;
+        }
+        .pargraph{
+
+        }
+        .pargraph ul{
+            text-align: left;
+            list-style: none;
+            margin-left: 7%;
+            margin-top: 4%;
+           
+        }
+        .pargraph ul li{
+            margin-bottom: 10%;
+        }
+        #video{
+            width: 37%;
+
+        }
+        .card{
+            margin: 2% auto;
+            display: flex;
+            justify-content: space-around;
+            width: 63%;
+
+        }
+        .card .card1{
+            width: 31%;
+   padding-bottom: 2%;
+   border: 1px solid black;
+        }
+        .card1 p:nth-child(1){
+            background-color: #ddd;
+            text-align: center;
+            padding: 5% 0;
+        }
+
+        .card1 ul{
+            list-style: none;
+            line-height: 2;
+        }
+        .card1 button{
+            border: 0;
+    margin: 15px 0;
+    background-color: #f1c40f;
+    font-weight: 400;
+    padding: 4% 10%;
+        }
+        footer{
+            margin: 0 auto;
+    padding: 1%;
+    text-align: right;
+    background-color: #ddd;
+width: 66%;
+}
+footer ul{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+
+}
+footer ul li{
+    padding-left: 5%;
+}
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <div class="logo">
+            <img id="header-img"
+                src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+                alt="mylogo">
+        </div>
+        <nav class="navbar" id="nav-bar">
+            <ul>
+                <li><a  href="#">Features</a></li>
+                <li><a  href="#">How it works</a></li>
+                <li><a  href="#">Pricing</a></li>  
+            </ul>
+        </nav>
+    </header>
+    <section class="home">
+<h2>Handcrafted, home-made masterpieces</h2>
+<input placeholder="Enter Your Email Address"><br>
+<button>GET STARTED</button>
+    </section>
+
+
+
+
+    <div class="container">
+
+
+        <!-- //////////////icons///////// -->
+ <div class="section2">
+
+<div class="icon">
+    <i class="fa fa-3x fa-fire"></i>
+    <i class="fa fa-3x fa-truck"></i>
+    <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+</div>
+<div class="pargraph">
+<ul>
+    <li>
+       <h2>Premium Materials</h2> 
+<p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.
+</p>
+    </li>
+    <li>
+        <h2>Fast Shipping
+        </h2> 
+ <p>
+    We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.
+ </p>
+     </li>
+     <li>
+        <h2>Quality Assurance</h2> 
+ <p>
+    For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.
+ </p>
+     </li>
+</ul>
+</div>
+ </div>
+
+
+
+ <!-- /////////video section//////////// -->
+ <div class="video">
+    <iframe id="video" height="315" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
+ </div>
+
+<!-- ///////////card section ////////// -->
+<div class="card">
+<div class="card1">
+    <p>TENOR TROMBONE</p>
+    <ul>
+<li><h2>$600
+</h2></li>
+<li>Lorem ipsum.
+</li>
+<li>Lorem ipsum.
+</li>
+<li>Lorem ipsum dolor.
+</li>
+<li>Lorem ipsum.
+</li>
+    </ul>
+    <button>SELECT</button>
+</div>
+<div class="card1">
+    <p>TENOR TROMBONE</p>
+    <ul>
+<li><h2>$600
+</h2></li>
+<li>Lorem ipsum.
+</li>
+<li>Lorem ipsum.
+</li>
+<li>Lorem ipsum dolor.
+</li>
+<li>Lorem ipsum.
+</li>
+    </ul>
+    <button>SELECT</button>
+</div>
+<div class="card1">
+    <p>TENOR TROMBONE</p>
+    <ul>
+<li><h2>$600
+</h2></li>
+<li>Lorem ipsum.
+</li>
+<li>Lorem ipsum.
+</li>
+<li>Lorem ipsum dolor.
+</li>
+<li>Lorem ipsum.
+</li>
+    </ul>
+    <button>SELECT</button>
+</div>
+
+</div>
+
+
+<footer>
+    <ul>
+<li>Privacy</li>
+<li>Terms</li>
+<li>Contact</li>
+    </ul>
+    <p>
+        Copyright 2016, Original Trombones
+
+    </p>
+</footer>
+    </div>
+
+
+
+
+
+
+
+    
+    <script src="index.js"></script>
+</body>
+
+</html>
